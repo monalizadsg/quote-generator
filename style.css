@@ -1,0 +1,48 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    background: url("photos/photo3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.qoute-box {
+    background:white;
+    padding: 20px;
+}
+.qoute-background {
+    background-color: #F2F2F2;
+    padding: 22px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Helvetica';
+    
+}
+
+.qoute-button {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+#daily-qoute {
+    text-align: center;
+    color: grey;
+    font-weight: 200;
+}
